@@ -1,0 +1,23 @@
+{
+  "name": "portalapi",
+  "version": "1.0.0",
+  "description": "an api to provide data for portal management",
+  "main": "app.js",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "PT Alam Sutera Realty, Tbk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mssql": "^4.1.0"
+  }
+}
