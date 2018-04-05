@@ -10,9 +10,9 @@ var securityProduction = { user: 'xxx', password: 'xxx', server: 'xxx', database
 var logProduction = { user: 'xxx', password: 'xxx', server: "xxx", database: 'xxx' };
 
 // set up development connection
-var currentDevelopment = { user: 'sa', password: '123456Bb', server: '10.10.0.42\\SQLDEVCORE', database: 'SecurityDB' };
-var securityDevelopment = { user: 'sa', password: '123456Bb', server: '10.10.0.42\\SQLDEVCORE', database: 'SecurityDB' };
-var logDevelopment = { user: 'sa', password: '123456Bb', server: '10.10.0.42\\SQLDEVCORE', database: 'LogDB' };
+var currentDevelopment = { user: 'sa', password: 'xxx', server: 'xxx\\xxx', database: 'xxx' };
+var securityDevelopment = { user: 'sa', password: 'xxx', server: 'xxx\\xxx', database: 'xxx' };
+var logDevelopment = { user: 'sa', password: 'xx', server: 'xxx\\xx', database: 'xxx' };
 
 // set up localhost connection
 var currentLocalhost = { user: 'xxx', password: 'xxx', server: 'xxx\\SQLEXPRESS', database: 'xxx' };
@@ -25,7 +25,7 @@ var logLocalhost = { user: 'xxx', password: 'xxx', server: 'xxx\\SQLEXPRESS', da
 
 module.exports = {
     application: function(){
-        return "PortalManagement"; // write your application name
+        return "[ApplicationName]"; // write your application name
     },
     key: function(){
         return "JSON_F52E2B61-18A1-11d1-B105-00805F49916B"; // this is a field name when you are using sql server 2016 or later which JSON as an output
