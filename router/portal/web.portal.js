@@ -53,8 +53,6 @@ router.post('/logout', function(req, res) {
     // parse json to object
     let obj = JSON.parse(req.body.id);
 
-    console.log(obj);
-
     // define parameter
     core.AddWithParameter(table1, "SessionID", obj[0].sessionidheader);
     core.AddWithParameter(table1, "FID", null);
