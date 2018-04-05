@@ -10,7 +10,6 @@ var core = require('../../multiple.core.js');
 
 // call sql connection configuration
 var config = require('../../multiple.config.js');
-console.log(path.basename(__filename));
 console.log(config.application() + ' [' + path.basename(__filename) + ']');
 console.log(config.setup());
 
