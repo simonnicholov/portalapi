@@ -10,9 +10,9 @@ var securityProduction = { user: 'xxx', password: 'xxx', server: 'xxx', database
 var logProduction = { user: 'xxx', password: 'xxx', server: "xxx", database: 'xxx' };
 
 // set up development connection
-var currentDevelopment = { user: 'sa', password: 'xxx', server: 'xxx\\xxx', database: 'xxx' };
-var securityDevelopment = { user: 'sa', password: 'xxx', server: 'xxx\\xxx', database: 'xxx' };
-var logDevelopment = { user: 'sa', password: 'xx', server: 'xxx\\xx', database: 'xxx' };
+var currentDevelopment = { user: 'xxx', password: 'xxx', server: 'xxx\\xxx', database: 'xxx' };
+var securityDevelopment = { user: 'xxx', password: 'xxx', server: 'xxx\\xxx', database: 'xxx' };
+var logDevelopment = { user: 'xxx', password: 'xx', server: 'xxx\\xx', database: 'xxx' };
 
 // set up localhost connection
 var currentLocalhost = { user: 'xxx', password: 'xxx', server: 'xxx\\SQLEXPRESS', database: 'xxx' };
